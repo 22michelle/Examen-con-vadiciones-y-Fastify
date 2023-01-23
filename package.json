@@ -1,0 +1,29 @@
+{
+  "name": "backendexamen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/formbody": "^7.4.0",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.33.0",
+    "fastify": "^4.12.0",
+    "fastify-multer": "^2.0.3",
+    "fs-extra": "^11.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "mongoose-error-handler": "^1.1.0",
+    "mongoose-validation-error-message-handler": "^1.2.5",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  }
+}
